@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon app.js",
-    "watch": "watchify -o public/javascripts/bundle.js -v -d public/javascripts/client.js",
-    "build": "browserify public/javascripts/client.js | uglifyjs -cm > public/javascripts/bundle.min.js"
-  },
+    "start": "node app.js",
+    },
+  ,"port":8000
   "browserify": {
     "transform": [
       "reactify",
