@@ -6,7 +6,7 @@
     "start": "node app.js",
     },
   ,"port":8000
-  "browserify": {
+  ,"browserify": {
     "transform": [
       "reactify",
       "envify"
